@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Caculate {
     public static void main(String[] args) {
         Algorithm algorithm=new Algorithm();
-        String str,s1,s2;
+        String str;
         int a;
         String s[]={"+","-","*","/"};
         Scanner sc=new Scanner(System.in);
@@ -29,10 +29,9 @@ public class Caculate {
                         break;
                     }
                 }
-            }
-            if(a==-1&i==3){
-                System.out.println("年轻人你不讲器德，希望你耗子尾汁，好好输入运算符");
+                System.exit(0);
             }
         }
+        System.out.println("年轻人你不讲器德，希望你耗子尾汁，好好输入数据");
     }
 }

@@ -48,6 +48,7 @@ public class Algorithm {
                 System.exit(0);
             }
         }
+        k=i/j;
         k=round(k,3);
         System.out.println(k);
     }
